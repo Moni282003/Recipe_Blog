@@ -1,0 +1,176 @@
+[
+    {
+        "menuId": 7,
+        "name": "Mushroom Risotto",
+        "thumbnail_image": "https://uploads-ssl.webflow.com/63a5a105581f4debc72a5ae5/63a8554ff1c7f61a56d974ca_Strawberry%20Caprese%20Summer%20Salad.webp",
+        "category": "Entrees",
+        "instructions": "1. In a large skillet, sauté diced onions in olive oil until translucent. 2. Add Arborio rice to the skillet and toast for 2 minutes. 3. Pour in white wine and cook until absorbed. 4. Begin adding vegetable broth gradually, stirring frequently, until the rice is creamy and tender. 5. In a separate pan, sauté sliced mushrooms until golden brown. 6. Fold the sautéed mushrooms into the risotto along with grated Parmesan cheese and chopped parsley. 7. Serve hot with a sprinkle of black pepper.",
+        "tags": ["Italian", "Risotto", "Mushroom"],
+        "ingredients": [
+            {
+                "optional": false,
+                "name": "Arborio rice",
+                "quantity": "1 cup"
+            },
+            {
+                "optional": false,
+                "name": "Onion",
+                "quantity": "1, diced"
+            },
+            {
+                "optional": false,
+                "name": "Vegetable broth",
+                "quantity": "4 cups"
+            },
+            {
+                "optional": false,
+                "name": "White wine",
+                "quantity": "1/2 cup"
+            },
+            {
+                "optional": false,
+                "name": "Mushrooms",
+                "quantity": "200g, sliced"
+            },
+            {
+                "name": "Parmesan cheese",
+                "quantity": "1/2 cup, grated",
+                "optional": true
+            },
+            {
+                "optional": false,
+                "name": "Parsley",
+                "quantity": "2 tbsp, chopped"
+            },
+            {
+                "optional": false,
+                "name": "Olive oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "optional": false,
+                "name": "Black pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "comments": [],
+        "more": {
+            "prep_time": "15 minutes",
+            "cook_time": "30 minutes",
+            "servings": "4",
+            "difficulty": "Medium",
+            "source": "FoodieDelights.com"
+        }
+    },
+    {
+        "menuId": 8,
+        "name": "Classic Caesar Salad",
+        "thumbnail_image": "https://uploads-ssl.webflow.com/63a5a105581f4debc72a5ae5/63a855c7c6294762f5ce0ec0_Quick%20Strawberry%20Shortcake%20Cupcakes.webp",
+        "category": "Salads",
+        "instructions": "1. In a large salad bowl, toss torn romaine lettuce leaves with Caesar dressing until evenly coated. 2. Add in grated Parmesan cheese and croutons, and toss again. 3. Optionally, top with grilled chicken strips or cooked shrimp for added protein. 4. Serve immediately, garnished with additional Parmesan shavings and freshly ground black pepper.",
+        "tags": ["Salad", "Caesar", "Classic"],
+        "ingredients": [
+            {
+                "optional": false,
+                "name": "Romaine lettuce",
+                "quantity": "1 head, torn into bite-sized pieces"
+            },
+            {
+                "optional": false,
+                "name": "Caesar dressing",
+                "quantity": "1/2 cup"
+            },
+            {
+                "optional": false,
+                "name": "Parmesan cheese",
+                "quantity": "1/2 cup, grated"
+            },
+            {
+                "optional": false,
+                "name": "Croutons",
+                "quantity": "1 cup"
+            },
+            {
+                "name": "Grilled chicken strips or cooked shrimp",
+                "quantity": "Optional",
+                "optional": true
+            },
+            {
+                "optional": false,
+                "name": "Black pepper",
+                "quantity": "to taste"
+            }
+        ],
+        "comments": [],
+        "more": {
+            "prep_time": "10 minutes",
+            "cook_time": "0 minutes",
+            "servings": "4",
+            "difficulty": "Easy",
+            "source": "SaladMasterpieces.com"
+        }
+    },
+    {
+        "menuId": 9,
+        "name": "Homemade Margherita Pizza",
+        "thumbnail_image": "https://uploads-ssl.webflow.com/63a5a105581f4debc72a5ae5/63a855d1a56bae68cf7c1211_Air%20Fryer%20Steak%20Fries.webp",
+        "category": "Entrees",
+        "instructions": "1. Preheat your oven to 475°F (245°C). 2. Roll out pizza dough on a floured surface to your desired thickness. 3. Transfer the rolled-out dough to a baking sheet or pizza stone. 4. Spread tomato sauce evenly over the dough, leaving a small border around the edges. 5. Arrange fresh mozzarella slices and basil leaves on top of the sauce. 6. Drizzle olive oil over the pizza and sprinkle with salt and pepper. 7. Bake in the preheated oven for 10-15 minutes, or until the crust is golden and the cheese is bubbly and slightly browned. 8.Remove the pizza from the oven and let it cool for a few minutes before slicing. 9. Optionally, garnish with freshly grated Parmesan cheese and a drizzle of balsamic glaze before serving.",
+        "tags": ["Pizza", "Margherita", "Italian"],
+        "ingredients": [
+        {
+        "optional": false,
+        "name": "Pizza dough",
+        "quantity": "1 ball, homemade or store-bought"
+        },
+        {
+        "optional": false,
+        "name": "Tomato sauce",
+        "quantity": "1/2 cup"
+        },
+        {
+        "optional": false,
+        "name": "Fresh mozzarella cheese",
+        "quantity": "8 oz, sliced"
+        },
+        {
+        "optional": false,
+        "name": "Fresh basil leaves",
+        "quantity": "Handful"
+        },
+        {
+        "optional": false,
+        "name": "Olive oil",
+        "quantity": "2 tbsp"
+        },
+        {
+        "optional": false,
+        "name": "Salt",
+        "quantity": "to taste"
+        },
+        {
+        "optional": false,
+        "name": "Black pepper",
+        "quantity": "to taste"
+        },
+        {
+        "optional": true,
+        "name": "Freshly grated Parmesan cheese",
+        "quantity": "For garnish"
+        },
+        {
+        "optional": true,
+        "name": "Balsamic glaze",
+        "quantity": "For garnish"
+        }
+        ],
+        "comments": [],
+        "more": {
+        "prep_time": "20 minutes",
+        "cook_time": "10-15 minutes",
+        "servings": "2-4",
+        "difficulty": "Medium",
+        "source": "PizzaPerfection.com"
+        }
+        }
+        ]

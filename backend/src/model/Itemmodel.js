@@ -90,6 +90,6 @@ more:{
 })
 
 
-const Item=mongoose.model('Item',ItemSchema)
+const Item=mongoose.model('items',ItemSchema)
 
 module.exports=Item

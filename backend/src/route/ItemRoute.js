@@ -1,8 +1,11 @@
-const express=require('express')
-const router=express.Router()
+const express = require('express');
+const router = express.Router();
+const controller = require('../controller/itemController');
 
-router.get("/",(req,res)=>{
-     res.send("Hii guys")
-})
+router.get('/all-item', controller.getAllItems);
 
-module.exports=router
+router.get('/search', controller.getSearchItem);
+
+router.get('/search/:id', controller.getSingleItem);
+
+module.exports = router;
