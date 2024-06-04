@@ -5,7 +5,7 @@ import Header from './components/header/header'
 
 export default function App() {
   return (
-    <div className="max-w-screen-2xl mx-9">
+    <div className="mx-4">
       <Header/>
     <Outlet />
     </div>

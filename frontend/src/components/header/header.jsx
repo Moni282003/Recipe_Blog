@@ -23,7 +23,7 @@ const Header = () => {
 
     return (
         <>
-            <div className="max-w-[899px] lg:hidden">
+            <div className="max-w-[900px] lg:hidden">
                 <MobileNav menuItems={menuItems} logo={logo} onClose={onClose} onOpen={onOpen} hideLeft={hideLeft} />
             </div>
             <div className="min-w-[900px] hidden lg:block">

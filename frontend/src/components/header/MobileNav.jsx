@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const MobileNav = ({ menuItems, logo, onClose, onOpen, hideLeft }) => {
     return (
-        <div className="h-16 flex justify-between items-center px-6 lg:px-12 bg-blue-500">
+        <div className="h-16 flex justify-between items-center w-full px-6 lg:px-12 bg-blue-500">
             <a href="/">
                 <img className="h-14 w-35 rounded-lg" src={logo} alt="Logo" />
             </a>

@@ -7,6 +7,7 @@ import Home from './pages/home/home.jsx'
 import ErrorPage from './components/errorPage.jsx'
 import CategoriesPage from './pages/category/CategoriesPage.jsx'
 import Search from './pages/Search.jsx'
+import DetailPage from './pages/details/DetailPage.jsx'
 
 const router=createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router=createBrowserRouter([
     {
       path:"/search",
       element:<Search/>
+    },
+    {
+      path:"/item/:id",
+      element:<DetailPage/>
     }
   
   ]

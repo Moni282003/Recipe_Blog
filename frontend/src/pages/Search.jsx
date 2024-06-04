@@ -2,6 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { IoIosSearch } from 'react-icons/io'
 import { useParams } from 'react-router-dom'
+import Card from './category/card'
 
 const Search = () => {
     const [query, setQuery] = useState('')
@@ -58,17 +59,17 @@ const Search = () => {
                 />
             </div>
             {loading ? (
-                <p>Loading...</p>
+                <p className='text-center text-2xl mt-4'>Loading...</p>
             ) : (
                 <div>
                     {results.length > 0 ? (
-                        <ul>
+                    <ul className='flex flex-wrap gap-6 justify-center'>
                             {results.map((item) => (
-                                <li key={item._id}>{item.name} - {item.price}</li>
+                                <Card key={item._id} item={item}/>
                             ))}
                         </ul>
                     ) : (
-                        <p>No results found</p>
+                        <p className='text-center text-2xl mt-4'>No results found</p>
                     )}
                 </div>
             )}

@@ -20,7 +20,7 @@ function CategoryItem({name,href,backgroundColor,color}){
 function CategoryList(){
     return(
         <div
-        className='flex flex-wrap items-center justify-center gap-8'
+        className='flex flex-wrap items-center justify-center gap-8 mb-8'
         >
             <CategoryItem name="entrees" href="/categories/entrees" backgroundColor="#f0f5c4"
             color="#59871f"/>
