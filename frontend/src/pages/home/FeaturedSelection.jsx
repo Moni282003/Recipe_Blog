@@ -16,7 +16,7 @@ const FeaturedSelection = () => {
            <div className='lg:mt-0 lg:flex-shrink-0'>
             <div className='mt-12 inline-flex'>     
                 <button className='py-4 px-8 hover:bg-btncolor text-secondary hover:text-white w-full transition 
-                ease-in duration-200 text-center text-base font-semibold border border-[#9c702a] focus:outline-none rounded-lg'>View Recipe</button>
+                ease-in duration-200 text-center text-base font-semibold border border-[#9c702a] focus:outline-none rounded-lg'><a href="/item/665b4c5541b1fdc82cc048f7">View Recipe</a></button>
             </div>
            </div>
       </div>

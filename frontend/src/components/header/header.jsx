@@ -8,9 +8,7 @@ const Header = () => {
     const [hideLeft, setHideLeft] = useState("-left-[1000px]");
     const menuItems = [
         { name: 'Home', icon: <FaHome /> },
-        { name: 'About', icon: <FaInfo /> },
-        { name: 'Services', icon: <FaServicestack /> },
-        { name: 'Contact', icon: <FaPhone /> },
+        { name: 'Recipe', icon: <FaServicestack /> },
     ];
       
     const onOpen = () => {

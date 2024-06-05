@@ -37,7 +37,7 @@ const LatestRecipe = () => {
                 (<></>)
             }
          </div>
-         <div className='flex flex-wrap gap-4 mt-8 justify-center'>
+         <div className='flex flex-wrap gap-4 mt-4 justify-center'>
          <button onClick={()=>viewAll()} className='py-4 px-8 hover:bg-btncolor text-secondary hover:text-white w-1/2 lg:w-1/4 transition 
                 ease-in duration-200 text-center text-base font-semibold border border-[#9c702a] focus:outline-none rounded-lg'>View
                 {

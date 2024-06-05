@@ -8,6 +8,7 @@ import ErrorPage from './components/errorPage.jsx'
 import CategoriesPage from './pages/category/CategoriesPage.jsx'
 import Search from './pages/Search.jsx'
 import DetailPage from './pages/details/DetailPage.jsx'
+import Recipe from './pages/details/Recipe.jsx'
 
 const router=createBrowserRouter([
   {
@@ -29,7 +30,16 @@ const router=createBrowserRouter([
     {
       path:"/item/:id",
       element:<DetailPage/>
+    },
+    {
+      path:"/home",
+      element:<Home/>
+    },
+    {
+      path:"/recipe",
+      element:<Recipe/>
     }
+
   
   ]
   }

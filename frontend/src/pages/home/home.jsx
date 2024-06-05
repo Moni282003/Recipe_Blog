@@ -3,6 +3,7 @@ import Hero from '../../components/header/hero'
 import CategoryWrapper from '../category/category'
 import FeaturedSelection from './FeaturedSelection'
 import LatestRecipe from './LatestRecipe'
+import Footer from '../footer/footer'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </div>
       <FeaturedSelection/>
       <LatestRecipe/>
+      <Footer/>
     </div>
   )
 }

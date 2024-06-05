@@ -3,6 +3,10 @@ import { FaClock } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const Card = ({ item }) => {
+  if (!item || !item.more || item.more.length === 0) {
+    return null; // or render a placeholder/error message
+  }
+
   return (
     <Link to={`/item/${item._id}`} className='block w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 mb-6'>
       <div className='bg-slate-100 rounded-md overflow-hidden'>
@@ -16,7 +20,6 @@ const Card = ({ item }) => {
               <span>{item.more[0].prep_time}</span>
             </div>
           </div>
-          <span className='absolute top-2 right-2 bg-slate-400 text-white py-1 px-2 rounded text-xs'>{item.more[0].difficulty}</span>
         </div>
       </div>
     </Link>
